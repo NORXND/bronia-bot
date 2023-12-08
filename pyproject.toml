@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "broniabot"
+version = "0.1.0"
+description = ""
+authors = ["Norbert Dudziak <norxnd@chojrak.dev>"]
+readme = "README.md"
+packages = [{include = "broniabot"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+"discord.py" = "^2.3.2"
+Quart = "^0.19.4"
+python-dotenv = "^1.0.0"
+quart-discord = "^2.1.4"
+pytesseract = "^0.3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
